@@ -1,0 +1,34 @@
+body{
+    background: url(https://www.pngmagic.com/product_images/sky-blue-hd-background-image-for-banner.jpg) no-repeat;
+    background-size: 100%;
+   padding-top: 10rem;
+}
+.container{
+    color : red;
+    margin: auto;
+    height: 30rem;
+    width: 20rem;
+    border-radius: 5rem;
+    border: solid;
+    border-color: slateblue;
+    backdrop-filter: blur(3px);
+}
+.container input{
+    margin: 10px;
+}
+
+.container .Sign_UP{
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+.container .LogInCheck{
+    background-color: #e7627f;
+    border: none;
+    cursor: pointer;
+    height: 2rem;
+    border-radius: 2rem;
+}

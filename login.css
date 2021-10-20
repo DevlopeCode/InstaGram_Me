@@ -1,0 +1,21 @@
+body {
+  background: url(https://www.pngmagic.com/product_images/sky-blue-hd-background-image-for-banner.jpg)
+    no-repeat;
+  background-size: 100%;
+  padding-top: 10rem;
+}
+.container {
+  margin: auto;
+  border: solid;
+  border-width: 3px;
+  border-radius: var(3px);
+  height: 10rem;
+  width: 15rem;
+}
+.container .FetchUser {
+  background-color: #e7627f;
+  border: none;
+  cursor: pointer;
+  height: 2rem;
+  border-radius: 2rem;
+}
