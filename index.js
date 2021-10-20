@@ -31,6 +31,7 @@ function Sign_UP() {
                     Temp_array.push(Obj_User);
                     localStorage.setItem('UserData', JSON.stringify(Temp_array));
                     alert("Sign UP Sucess");
+                     window.open('https://prabhatzws.github.io/InstaGram_Me/login.html');
                             location.reload();
                 }
             } else {
