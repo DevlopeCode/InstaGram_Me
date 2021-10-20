@@ -21,7 +21,7 @@ function FetchUser() {
                     localStorage.setItem('UserAccountData',JSON.stringify(DataHolder));
                     flaglogin++;
                     localStorage.setItem('falg',JSON.stringify(flaglogin));
-                    window.open('/User.html');
+                    window.open('https://prabhatzws.github.io/InstaGram_Me/User.html');
                     break;
                 } else {
                     document.getElementById('msg').innerHTML = ' ';
