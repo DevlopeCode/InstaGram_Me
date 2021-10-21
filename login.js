@@ -1,10 +1,14 @@
 var UserData = [],DataHolder=[],flaglogin=0;
 function ChekLoger(){
-    if('falg' in localStorage){
-        flaglogin=JSON.parse(localStorage.getItem('falg'));
+    if('flag' in localStorage){
+        flaglogin=JSON.parse(localStorage.getItem('flag'));
     }
     if(flaglogin==0){
+       if(document.getElementById('UserName').value.length != 0){
         FetchUser();
+       }else{
+           alert('Do not Submit Blank Username');
+       }
     }else{
         alert('A user Alredy Log IN');
     }
@@ -20,8 +24,8 @@ function FetchUser() {
                     DataHolder.push(UserData[i]);
                     localStorage.setItem('UserAccountData',JSON.stringify(DataHolder));
                     flaglogin++;
-                    localStorage.setItem('falg',JSON.stringify(flaglogin));
-                    window.open('https://prabhatzws.github.io/InstaGram_Me/User.html');
+                    localStorage.setItem('flag',JSON.stringify(flaglogin));
+                    window.location.href='/User.html';
                     break;
                 } else {
                     document.getElementById('msg').innerHTML = ' ';
