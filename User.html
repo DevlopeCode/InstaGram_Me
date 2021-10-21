@@ -7,10 +7,16 @@
     <title>User_Page</title>
 </head>
 <body>
+    <nav>  <button type="submit" onclick="LogOut()">LogOut</button> </nav>
    <h1>welcome to InstaGram</h1>   
    <div class="container">
-       <button type="submit" onclick="LogOut()">LogOut</button>
+       <label for="comment">Comment</label>
+       <input type="text" id="comment" size="50"><br>
+       <button type="submit" onclick="AddComment()">AddComment</button>
    </div> 
+   <div id="CommentsShow">
+  
+   </div>
    <script src="User.js"></script>
 </body>
 </html>
