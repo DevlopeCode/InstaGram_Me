@@ -30,7 +30,7 @@ function Sign_UP() {
                 } else {
                     Temp_array.push(Obj_User);
                     localStorage.setItem('UserData', JSON.stringify(Temp_array));
-                    alert("Sign UP Sucess");
+                    
                     window.location.href='/login.html';
                 }
             } else {
