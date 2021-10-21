@@ -21,8 +21,8 @@ function Sign_UP() {
                             data.push(Obj_User);
                             localStorage.setItem('UserData', JSON.stringify(data));
                             alert("Sign UP Sucess");
-                            window.open('https://prabhatzws.github.io/InstaGram_Me/login.html');
-                            location.reload();
+                          //  window.open('/login.html');
+                            window.location.href='/login.html';
                         } else {
                             alert('User_name Alredy Found Use Diffrent Username')
                         }
@@ -31,8 +31,7 @@ function Sign_UP() {
                     Temp_array.push(Obj_User);
                     localStorage.setItem('UserData', JSON.stringify(Temp_array));
                     alert("Sign UP Sucess");
-                     window.open('https://prabhatzws.github.io/InstaGram_Me/login.html');
-                            location.reload();
+                    window.location.href='/login.html';
                 }
             } else {
                 alert('You have entered an invalid Mobile Number')
@@ -47,7 +46,7 @@ function Sign_UP() {
 }
 function LogInCheck(){
     if('UserData' in localStorage){
-      window.open('https://prabhatzws.github.io/InstaGram_Me/login.html');
+      window.open('/login.html');
       location.reload();
     }else{
         alert('No users found in Insta Data');
