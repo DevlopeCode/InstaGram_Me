@@ -46,7 +46,7 @@ function Sign_UP() {
 }
 function LogInCheck(){
     if('UserData' in localStorage){
-      window.open('/login.html');
+      window.open('https://prabhatzws.github.io/InstaGram_Me/login.html');
       location.reload();
     }else{
         alert('No users found in Insta Data');
