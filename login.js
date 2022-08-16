@@ -25,7 +25,7 @@ function FetchUser() {
                     localStorage.setItem('UserAccountData',JSON.stringify(DataHolder));
                     flaglogin++;
                     localStorage.setItem('flag',JSON.stringify(flaglogin));
-                    window.location.href='/User.html';
+                    window.location.href='https://devlopecode.github.io/InstaGram_Me/User.html';
                     break;
                 } else {
                     document.getElementById('msg').innerHTML = ' ';
