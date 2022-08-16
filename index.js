@@ -31,7 +31,7 @@ function Sign_UP() {
                     Temp_array.push(Obj_User);
                     localStorage.setItem('UserData', JSON.stringify(Temp_array));
                     
-                    window.location.href='/login.html';
+                    window.location.href='https://devlopecode.github.io/InstaGram_Me/login.html';
                 }
             } else {
                 alert('You have entered an invalid Mobile Number')
